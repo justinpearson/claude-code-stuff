@@ -1,0 +1,24 @@
+prompt: asciiize-text python program
+
+write short python program that takes a filename of a text file, and shows all non-ascii characters in context, nicely and with nice coloring, prints a summary, and offers to replace the non-ascii characters with their ascii equivalents (em-dashes with hyphens, curly quotes with normal single and double quotes, smiley emoji's with :) and :(, etc), either an in-place replacement (make a backup), or a new file with _ASCII suffix.
+
+Also make a .zshrc alias 'asciiize' so I can do
+
+```
+$ asciiize path/to/foo.txt
+```
+
+And actually, first, is there already a command-line utility to do this on my system?
+
+
+-------------
+
+very nice. some feedback:
+
+1. add that nice test case into the asciiize-text/ dir.
+
+2. if no args given, offer to read from clipboard (confirm with user). If the script reads from clipboard, don't write a file. It's just for quick informative purposes, like where I'll copy text from a webpage and be curious about the presence of unicode characters and their names.
+
+3. change color from cyan to dark blue
+
+4. BOX DRAWINGS -- instead of deleting, let's replace with ascii equivalents.

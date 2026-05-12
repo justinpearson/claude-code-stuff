@@ -1,0 +1,9 @@
+She said “hello” — it’s a test… 😀
+Price: €5 ± 1, ½ off if you’re lucky.
+Arrow → here, café résumé naïve.
+Bullet • point and a zero-width​space.
+┌─────────────┬─────────┐
+│ box drawing │ ▓▒░ etc │
+├─────────────┼─────────┤
+│ row two     │ ┃ ━ ╬   │
+└─────────────┴─────────┘
