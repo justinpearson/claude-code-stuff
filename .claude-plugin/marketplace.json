@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "claude-code-stuff",
+  "owner": {
+    "name": "Justin Pearson",
+    "email": "justinpearson@users.noreply.github.com"
+  },
+  "description": "Justin Pearson's personal Claude Code marketplace: prompts, skills, and setup helpers for configuring Claude Code.",
+  "plugins": [
+    {
+      "name": "claude-code-setup",
+      "source": "./plugins/claude-code-setup",
+      "description": "Recommended Claude Code configuration: a multi-line Claude Code status line, a primer on how skills and MCP servers work, and more to come.",
+      "category": "productivity",
+      "keywords": ["Claude Code setup","statusline", "skills", "mcp", "setup", "configuration"]
+    }
+  ]
+}

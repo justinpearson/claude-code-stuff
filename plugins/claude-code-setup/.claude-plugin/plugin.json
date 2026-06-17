@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "claude-code-setup",
+  "description": "Recommended Claude Code configuration: a multi-line status line and a primer on how skills and MCP servers work.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Justin Pearson",
+    "email": "justinpearson@users.noreply.github.com"
+  },
+  "homepage": "https://github.com/justinpearson/claude-code-stuff",
+  "repository": "https://github.com/justinpearson/claude-code-stuff",
+  "license": "MIT",
+  "keywords": ["statusline", "skills", "mcp", "setup", "configuration"]
+}
