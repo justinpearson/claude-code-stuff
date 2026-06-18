@@ -1,7 +1,8 @@
 # claude-code-stuff
 
-Justin Pearson's personal Claude Code [plugin marketplace](https://code.claude.com/docs/en/plugin-marketplaces),
-plus assorted prompts, skills, and docs for working with Claude Code.
+Justin Pearson's personal Claude Code [plugin marketplace](https://code.claude.com/docs/en/plugin-marketplaces), plus some docs about Claude Code and LLMs + AI in general.
+
+Docs hosted on GH Pages here: https://justinpearson.github.io/claude-code-stuff
 
 ## Install + use
 
@@ -36,3 +37,28 @@ After installing, invoke a skill by its namespaced name, for example
 
 - [`tools/`](tools/) — standalone scripts that are not (yet) packaged as plugins.
 
+
+## TODO
+
+Things to add:
+
+- /statusline
+- CLAUDE.md snippets
+- handy skills
+- hidden files and folders, hard to find .claude
+- handy hooks
+	- notifier
+- quick-start & tutorial
+- disc of user vs proj settings etc
+- swimline diagram -- what's an agent, harness, model, etc.
+	- different models, harnesses (Pi), ai labs
+- LLM Wiki?
+- my POV on where software engineering is heading (as of may 2026)
+	- ai code review
+	- ai software development
+		- do you "understand" what it's doing?
+	- ai quality-assurance
+	- ai security
+		- zerodayclock.com, automated systems for CVE fixing
+- wiki / posts
+	- openclaw
