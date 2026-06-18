@@ -25,11 +25,3 @@ Installs a multi-line status line ("footer") to Claude Code, with various nice s
 - counts of plugins, skills, agents, hooks, MCPs (by scope)
 
 Invoke it with `/claude-code-setup:statusline-setup`.
-
-### `/learn-skills-and-mcp`
-
-A primer on how MCP servers and skills work in Claude Code: what each one is, how
-the harness surfaces it to the model, what happens on invocation, how they
-differ, and how to combine an MCP with a skill.
-
-Invoke it with `/claude-code-setup:learn-skills-and-mcp`.

@@ -10,9 +10,9 @@
     {
       "name": "claude-code-setup",
       "source": "./plugins/claude-code-setup",
-      "description": "Recommended Claude Code configuration: a multi-line Claude Code status line, a primer on how skills and MCP servers work, and more to come.",
+      "description": "Recommended Claude Code configuration: a multi-line Claude Code status line, and more to come.",
       "category": "productivity",
-      "keywords": ["Claude Code setup","statusline", "skills", "mcp", "setup", "configuration"]
+      "keywords": ["Claude Code setup", "statusline", "setup", "configuration"]
     }
   ]
 }

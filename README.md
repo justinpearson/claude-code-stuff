@@ -1,7 +1,8 @@
 # claude-code-stuff
 
-Justin Pearson's personal Claude Code [plugin marketplace](https://code.claude.com/docs/en/plugin-marketplaces),
-plus assorted prompts, skills, and docs for working with Claude Code.
+Justin Pearson's personal Claude Code [plugin marketplace](https://code.claude.com/docs/en/plugin-marketplaces), plus some docs about Claude Code and LLMs + AI in general.
+
+Docs hosted on GH Pages here: https://justinpearson.github.io/claude-code-stuff
 
 ## Install + use
 
@@ -19,20 +20,50 @@ The marketplace catalog lives in
 
 ### `claude-code-setup`
 
-Recommended Claude Code configuration. It bundles two skills (see
-[`plugins/claude-code-setup`](plugins/claude-code-setup)):
+Recommended Claude Code configuration. It bundles the `statusline-setup` skill
+(see [`plugins/claude-code-setup`](plugins/claude-code-setup)):
 
 - **`statusline-setup`** — installs a nice multi-line Claude Code status line:
 
   ![Claude Code status line](images/status-line.png)
 
-- **`learn-skills-and-mcp`** — brief description of MCP servers + skills in
-  Claude Code, how they differ, and how to combine them.
-
 After installing, invoke a skill by its namespaced name, for example
 `/claude-code-setup:statusline-setup`.
+
+## Docs
+
+Notes on Claude Code and LLMs / AI, in [`docs/`](docs/), published to GitHub
+Pages at <https://justinpearson.github.io/claude-code-stuff>:
+
+- [Happy Justin's Claude Code Tutorial](docs/main.md)
+- [User-level Claude Code memory file (my `CLAUDE.md`)](docs/my-CLAUDE.md)
 
 ## Other contents
 
 - [`tools/`](tools/) — standalone scripts that are not (yet) packaged as plugins.
 
+
+## TODO
+
+Things to add:
+
+- /statusline
+- CLAUDE.md snippets
+- handy skills
+- hidden files and folders, hard to find .claude
+- handy hooks
+	- notifier
+- quick-start & tutorial
+- disc of user vs proj settings etc
+- swimline diagram -- what's an agent, harness, model, etc.
+	- different models, harnesses (Pi), ai labs
+- LLM Wiki?
+- my POV on where software engineering is heading (as of may 2026)
+	- ai code review
+	- ai software development
+		- do you "understand" what it's doing?
+	- ai quality-assurance
+	- ai security
+		- zerodayclock.com, automated systems for CVE fixing
+- wiki / posts
+	- openclaw
