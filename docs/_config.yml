@@ -2,9 +2,10 @@ title: claude-code-stuff
 description: Justin Pearson's notes on Claude Code and LLMs / AI.
 theme: jekyll-theme-cayman
 
-# Apply the theme's layout to every page so the bare-content markdown files
-# render with styling. Files still need their own (possibly empty) front
-# matter for Jekyll to process them rather than treat them as static files.
+# Apply the theme's layout to every page so the front-matter-less markdown
+# files render with styling. (GitHub Pages renders front-matter-less markdown
+# via its default jekyll-optional-front-matter plugin, and derives page titles
+# from the first heading via jekyll-titles-from-headings.)
 defaults:
   - scope:
       path: ""
