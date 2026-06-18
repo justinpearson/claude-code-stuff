@@ -1,3 +1,7 @@
+---
+title: My CLAUDE.md
+---
+
 # User-level Claude Code Memory File
 
 ## Communication Preferences

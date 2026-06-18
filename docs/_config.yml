@@ -1,0 +1,12 @@
+title: claude-code-stuff
+description: Justin Pearson's notes on Claude Code and LLMs / AI.
+theme: jekyll-theme-cayman
+
+# Apply the theme's layout to every page so the bare-content markdown files
+# render with styling. Files still need their own (possibly empty) front
+# matter for Jekyll to process them rather than treat them as static files.
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

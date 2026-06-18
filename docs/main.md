@@ -1,3 +1,7 @@
+---
+title: Claude Code Tutorial
+---
+
 # Happy Justin's Claude Code Tutorial
 
 ## Introduction
