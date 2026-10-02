@@ -12,7 +12,26 @@
       "source": "./plugins/claude-code-setup",
       "description": "Recommended Claude Code configuration: a multi-line Claude Code status line, and more to come.",
       "category": "productivity",
-      "keywords": ["Claude Code setup", "statusline", "setup", "configuration"]
+      "keywords": [
+        "Claude Code setup",
+        "statusline",
+        "setup",
+        "configuration"
+      ]
+    },
+    {
+      "name": "screen-recording-demo",
+      "source": "./plugins/screen-recording-demo",
+      "description": "Short, silent, privacy-safe screen-recording demo videos and GIFs of a tool on macOS, with a moving cursor, title cards, and numbered captions.",
+      "category": "productivity",
+      "keywords": [
+        "screen recording",
+        "demo video",
+        "tutorial",
+        "GIF",
+        "ffmpeg",
+        "macOS"
+      ]
     }
   ]
 }
