@@ -1,0 +1,25 @@
+{
+	"encrypt": {
+		"title": "How to encrypt a folder",
+		"subtitle": "Zip it, choose it, set a password",
+		"captions": [
+			"Put your files in one folder",
+			"Zip it: right-click the folder, choose Compress",
+			"In the tool, choose the new .zip file",
+			"Type a password",
+			"Click Encrypt, then Save",
+			"Done. Only the password opens the .enc file"
+		]
+	},
+	"decrypt": {
+		"title": "How to decrypt a file",
+		"subtitle": "Choose it, enter the password, unzip",
+		"captions": [
+			"Choose the .enc file",
+			"Type the password",
+			"Click Decrypt, then Save",
+			"Double-click the .zip to unpack it",
+			"Your original files are back"
+		]
+	}
+}

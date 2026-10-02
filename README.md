@@ -27,8 +27,17 @@ Recommended Claude Code configuration. It bundles the `statusline-setup` skill
 
   ![Claude Code status line](images/status-line.png)
 
+### `screen-recording-demo`
+
+Makes short, silent screen-recording demo videos (and GIFs) of a tool on macOS: a Swift
+driver moves the real cursor through the Accessibility API while ffmpeg records a cropped
+region, then a renderer adds a title card and numbered captions. Built to keep personal
+information out of the frame. See [`plugins/screen-recording-demo`](plugins/screen-recording-demo);
+the videos in [easy-file-encryption](https://github.com/justinpearson/easy-file-encryption)
+are its output.
+
 After installing, invoke a skill by its namespaced name, for example
-`/claude-code-setup:statusline-setup`.
+`/claude-code-setup:statusline-setup` or `/screen-recording-demo:screen-recording-demo`.
 
 ## Docs
 
