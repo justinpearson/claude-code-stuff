@@ -32,6 +32,20 @@
         "ffmpeg",
         "macOS"
       ]
+    },
+    {
+      "name": "session-info-in-footer",
+      "source": "./plugins/session-info-in-footer",
+      "description": "A two-line band above the prompt, in the terminal and the desktop app: model, effort, context left, session cost, prompt-cache expiry with a warning, clock, directory, and repo.",
+      "category": "productivity",
+      "keywords": [
+        "mod",
+        "status line",
+        "session cost",
+        "prompt cache",
+        "context window",
+        "desktop"
+      ]
     }
   ]
 }
