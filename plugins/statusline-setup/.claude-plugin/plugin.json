@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-plugin.json",
-  "name": "claude-code-setup",
-  "description": "Recommended Claude Code configuration: a multi-line status line, with more to come.",
+  "name": "statusline-setup",
+  "description": "Deprecated: superseded by session-info-in-footer. Installs a multi-line Claude Code status line (model, effort, context, cost, git branch and status, plugin counts) for the terminal.",
   "version": "0.1.0",
   "author": {
     "name": "Justin Pearson",
@@ -10,5 +10,10 @@
   "homepage": "https://github.com/justinpearson/claude-code-stuff",
   "repository": "https://github.com/justinpearson/claude-code-stuff",
   "license": "MIT",
-  "keywords": ["statusline", "setup", "configuration"]
+  "keywords": [
+    "statusline",
+    "status line",
+    "terminal",
+    "deprecated"
+  ]
 }

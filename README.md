@@ -10,31 +10,16 @@ Add the marketplace, then install a plugin from it:
 
 ```
 /plugin marketplace add justinpearson/claude-code-stuff
-/plugin install claude-code-setup@claude-code-stuff
+/plugin install session-info-in-footer@claude-code-stuff
 ```
 
 The marketplace catalog lives in
 [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json).
 
+Each plugin holds one feature. Claude Code turns a plugin's skills, hooks, and MCP servers on
+and off together, so one feature per plugin lets you enable only the ones you want.
+
 ## Plugins
-
-### `claude-code-setup`
-
-Recommended Claude Code configuration. It bundles the `statusline-setup` skill
-(see [`plugins/claude-code-setup`](plugins/claude-code-setup)):
-
-- **`statusline-setup`** — installs a nice multi-line Claude Code status line:
-
-  ![Claude Code status line](images/status-line.png)
-
-### `screen-recording-demo`
-
-Makes short, silent screen-recording demo videos (and GIFs) of a tool on macOS: a Swift
-driver moves the real cursor through the Accessibility API while ffmpeg records a cropped
-region, then a renderer adds a title card and numbered captions. Built to keep personal
-information out of the frame. See [`plugins/screen-recording-demo`](plugins/screen-recording-demo);
-the videos in [easy-file-encryption](https://github.com/justinpearson/easy-file-encryption)
-are its output.
 
 ### `session-info-in-footer`
 
@@ -46,10 +31,32 @@ are stepping away, since the first message after expiry re-sends the whole conte
 cache-write price. See [`plugins/session-info-in-footer`](plugins/session-info-in-footer).
 It has no command to invoke; the band appears in sessions started after you install it.
 
-<!-- screenshot here -->
+In the desktop app's Code tab:
 
-After installing, invoke a skill by its namespaced name, for example
-`/claude-code-setup:statusline-setup` or `/screen-recording-demo:screen-recording-demo`.
+![session-info-in-footer in the desktop app](images/session-info-in-footer-desktop.png)
+
+In the terminal:
+
+![session-info-in-footer in the terminal](images/session-info-in-footer-terminal.png)
+
+### `screen-recording-demo`
+
+Makes short, silent screen-recording demo videos (and GIFs) of a tool on macOS: a Swift
+driver moves the real cursor through the Accessibility API while ffmpeg records a cropped
+region, then a renderer adds a title card and numbered captions. Built to keep personal
+information out of the frame. See [`plugins/screen-recording-demo`](plugins/screen-recording-demo);
+the videos in [easy-file-encryption](https://github.com/justinpearson/easy-file-encryption)
+are its output. Invoke it with `/screen-recording-demo:screen-recording-demo`.
+
+### `statusline-setup` (deprecated)
+
+Installs a multi-line status line for the Claude Code terminal app, through a shell script and
+a `statusLine` entry in `settings.json`. Superseded by `session-info-in-footer`, which also
+works in the desktop app; it remains for its git status and plugin counts. Formerly
+`claude-code-setup`; see [`plugins/statusline-setup`](plugins/statusline-setup) for how to
+switch an existing install. Invoke it with `/statusline-setup:statusline-setup`.
+
+![Claude Code status line](images/status-line.png)
 
 ## Docs
 
