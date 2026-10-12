@@ -4,7 +4,13 @@ A Claude Code mod that draws two lines of session information just above the pro
 terminal and in the Claude desktop app's Code tab. It is distributed as a plugin in the
 [`claude-code-stuff`](../../README.md) marketplace.
 
-<!-- screenshot here -->
+In the desktop app's Code tab:
+
+![session-info-in-footer in the desktop app](../../images/session-info-in-footer-desktop.png)
+
+In the terminal:
+
+![session-info-in-footer in the terminal](../../images/session-info-in-footer-terminal.png)
 
 ## Install
 
@@ -18,7 +24,7 @@ The band appears in sessions started after the install.
 ## What it shows
 
 ```
-Opus 5.5 · high   █████████░ 96% ctx   $1.23 · 1h35m   cache warm until 2:47 PM   🕐 1:52 PM
+claude-opus-5-5 · high   █████████░ 96% ctx   $1.23 · 1h35m   cache warm until 2:47 PM   🕐 1:52 PM
 📁 ~/agents/app   proj: ~/agents   repo: me/agents
 ```
 

@@ -8,15 +8,15 @@
   "description": "Justin Pearson's personal Claude Code marketplace: prompts, skills, and setup helpers for configuring Claude Code.",
   "plugins": [
     {
-      "name": "setup-claude-code",
-      "source": "./plugins/setup-claude-code",
-      "description": "Recommended Claude Code configuration: a multi-line Claude Code status line, and more to come.",
+      "name": "statusline-setup",
+      "source": "./plugins/statusline-setup",
+      "description": "Deprecated: superseded by session-info-in-footer. Installs a multi-line Claude Code status line (model, effort, context, cost, git branch and status, plugin counts) for the terminal.",
       "category": "productivity",
       "keywords": [
-        "Claude Code setup",
         "statusline",
-        "setup",
-        "configuration"
+        "status line",
+        "terminal",
+        "deprecated"
       ]
     },
     {
