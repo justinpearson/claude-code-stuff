@@ -36,6 +36,18 @@ information out of the frame. See [`plugins/screen-recording-demo`](plugins/scre
 the videos in [easy-file-encryption](https://github.com/justinpearson/easy-file-encryption)
 are its output.
 
+### `session-info-in-footer`
+
+A mod that draws two lines of session information above the prompt, in the terminal and in
+the Claude desktop app's Code tab, where a `statusLine` script cannot draw: model, effort,
+context left, session cost, elapsed time, current time, directory, and repo. It also shows when
+the prompt cache expires and raises a warning five minutes before, suggesting `/compact` if you
+are stepping away, since the first message after expiry re-sends the whole context at the
+cache-write price. See [`plugins/session-info-in-footer`](plugins/session-info-in-footer).
+It has no command to invoke; the band appears in sessions started after you install it.
+
+<!-- screenshot here -->
+
 After installing, invoke a skill by its namespaced name, for example
 `/claude-code-setup:statusline-setup` or `/screen-recording-demo:screen-recording-demo`.
 
