@@ -8,8 +8,8 @@
   "description": "Justin Pearson's personal Claude Code marketplace: prompts, skills, and setup helpers for configuring Claude Code.",
   "plugins": [
     {
-      "name": "claude-code-setup",
-      "source": "./plugins/claude-code-setup",
+      "name": "setup-claude-code",
+      "source": "./plugins/setup-claude-code",
       "description": "Recommended Claude Code configuration: a multi-line Claude Code status line, and more to come.",
       "category": "productivity",
       "keywords": [

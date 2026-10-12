@@ -10,7 +10,7 @@ Add the marketplace, then install a plugin from it:
 
 ```
 /plugin marketplace add justinpearson/claude-code-stuff
-/plugin install claude-code-setup@claude-code-stuff
+/plugin install setup-claude-code@claude-code-stuff
 ```
 
 The marketplace catalog lives in
@@ -18,10 +18,10 @@ The marketplace catalog lives in
 
 ## Plugins
 
-### `claude-code-setup`
+### `setup-claude-code`
 
 Recommended Claude Code configuration. It bundles the `statusline-setup` skill
-(see [`plugins/claude-code-setup`](plugins/claude-code-setup)):
+(see [`plugins/setup-claude-code`](plugins/setup-claude-code)):
 
 - **`statusline-setup`** — installs a nice multi-line Claude Code status line:
 
@@ -49,7 +49,7 @@ It has no command to invoke; the band appears in sessions started after you inst
 <!-- screenshot here -->
 
 After installing, invoke a skill by its namespaced name, for example
-`/claude-code-setup:statusline-setup` or `/screen-recording-demo:screen-recording-demo`.
+`/setup-claude-code:statusline-setup` or `/screen-recording-demo:screen-recording-demo`.
 
 ## Docs
 

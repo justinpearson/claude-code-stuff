@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-plugin.json",
-  "name": "claude-code-setup",
+  "name": "setup-claude-code",
   "description": "Recommended Claude Code configuration: a multi-line status line, with more to come.",
   "version": "0.1.0",
   "author": {

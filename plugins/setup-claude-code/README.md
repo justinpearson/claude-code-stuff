@@ -1,4 +1,4 @@
-# claude-code-setup
+# setup-claude-code
 
 Recommended Claude Code configuration, distributed as a plugin in the
 [`claude-code-stuff`](../../README.md) marketplace.
@@ -7,7 +7,16 @@ Recommended Claude Code configuration, distributed as a plugin in the
 
 ```
 /plugin marketplace add justinpearson/claude-code-stuff
-/plugin install claude-code-setup@claude-code-stuff
+/plugin install setup-claude-code@claude-code-stuff
+```
+
+This plugin was called `claude-code-setup` until October 2026, when Claude Code reserved plugin
+names that start with `claude-`. If you installed it under the old name, switch to the new one:
+
+```
+/plugin uninstall claude-code-setup@claude-code-stuff
+/plugin marketplace update claude-code-stuff
+/plugin install setup-claude-code@claude-code-stuff
 ```
 
 ## Skills
@@ -24,4 +33,4 @@ Installs a multi-line status line ("footer") to Claude Code, with various nice s
 - cwd + git branch & status
 - counts of plugins, skills, agents, hooks, MCPs (by scope)
 
-Invoke it with `/claude-code-setup:statusline-setup`.
+Invoke it with `/setup-claude-code:statusline-setup`.
